@@ -15,8 +15,6 @@ public class LargestSum {
     public int bigSum(List<Integer> nums){
         
         Collections.sort(nums,Collections.reverseOrder());
-
-        
         return nums.get(0) + nums.get(1);
     }
 }
